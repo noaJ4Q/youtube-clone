@@ -14,7 +14,7 @@ export const Navbar = ({setSidebar}) => {
     return (
         <nav className="flex-div">
             <div className="nav-left flex-div">
-                <img onClick={()=>{setSidebar(prev => !prev)}} className="menu-icon" src={menuIcon} alt="menu-icon" />
+                <img onClick={() => {setSidebar(prev => !prev)}} className="menu-icon" src={menuIcon} alt="menu-icon" />
                 <img className="logo" src={logo} alt="logo" />
             </div>
 

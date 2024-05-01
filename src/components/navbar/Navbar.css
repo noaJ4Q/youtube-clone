@@ -3,11 +3,14 @@ nav{
     justify-content: space-between;
     position: sticky;
     top: 0;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .nav-left .menu-icon{
     width: 22px;
     margin-right: 25px;
+    cursor: pointer;
 }
 
 .nav-left .logo{
